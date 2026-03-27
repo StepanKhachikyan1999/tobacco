@@ -1,4 +1,4 @@
-import araratExclusiveImg from './images/Ararat_Exclusive.png';
+// import araratExclusiveImg from './images/Ararat_Exclusive.png';
 import araratSevMets from './images/Ararat_sev_mets.png';
 import araratWhiteBigImg from './images/Ararat_Spitat_mets.png';
 
