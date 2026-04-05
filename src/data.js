@@ -7,6 +7,8 @@ import araratSevHast from './images/Ararat_Sev_Hast.png';
 import araratCompact from './images/Ararat_Compact.png';
 import araratSeriSlims from './images/Ararat_Seri_Slims.png';
 
+
+
 export const tobaccoData = [
   {
     id: 'GT',
@@ -18,462 +20,520 @@ export const tobaccoData = [
         mark: "Big",
         price: 1600,
         name: "Ararat Black",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 1
       },
       {
         id: 2,
         mark: "Big",
         price: 1600,
         name: "Ararat Exclusive",
-        image: araratWhiteBigImg
+        image: araratWhiteBigImg,
+        rating: 1
       },
       {
         id: 3,
         mark: "Ararat",
         price: 1200,
         name: "Ararat Gold",
-        image: araratGold
+        image: araratGold,
+        rating: 1
       },
       {
         id: 4,
         mark: "Ararat",
         price: 1300,
         name: "Ararat White",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 1
       },
       {
         id: 5,
         mark: "Ararat",
         price: 1300,
         name: "Ararat Perla",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 1
       },
       {
         id: 6,
         mark: "Ararat",
         price: 1300,
         name: "Ararat Lazur",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 4
       },
       {
         id: 7,
         mark: "Ararat",
         price: 1200,
         name: "Ararat Kaput Slims",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
       {
         id: 8,
         mark: "Ararat",
         price: 1200,
         name: "Ararat Seri slims",
-        image: araratSeriSlims
+        image: araratSeriSlims,
+        rating: 5
       },
       {
         id: 9,
         mark: "Ararat",
         price: 1200,
         name: "Ararat nex erkar",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
       {
         id: 10,
         mark: "Ararat",
         price: 1200,
         name: "Ararat Super Slims",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 3
       },
       {
         id: 11,
         mark: "Ararat",
         price: 1200,
         name: "Ararat Sev barak",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 4
       },
       {
         id: 12,
         mark: "Ararat",
         price: 1200,
         name: "Ararat Seri",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
       {
         id: 13,
         mark: "Ararat",
         price: 1200,
         name: "Ararat Kapuyt",
-        image: araratKapuyt
+        image: araratKapuyt,
+        rating: 5
       },
       {
         id: 14,
         mark: "Ararat",
         price: 1200,
         name: "Ararat Sev hast",
-        image: araratSevHast
+        image: araratSevHast,
+        rating: 3
       },
       {
         id: 15,
         mark: "Ararat",
         price: 1200,
         name: "Ararat Kapuyt hast",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
       {
         id: 16,
         mark: "Ararat",
         price: 1200,
         name: "Ararat Compact",
-        image: araratCompact
+        image: araratCompact,
+        rating: 2
       },
       {
         id: 17,
         mark: "Aragats",
         price: 900,
         name: "Aragats",
-        image: araratSevMets
-      },
-      {
-        id: 18,
-        mark: "Aragats",
-        price: 900,
-        name: "Aragats",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 1
       },
       {
         id: 19,
         mark: "Triumph",
         price: 1000,
         name: "Triumph",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 1
       },
       {
         id: 20,
         mark: "Akhtamar",
         price: 1100,
         name: "Akhtamar Sev erkar",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 3
       },
       {
         id: 21,
         mark: "Akhtamar",
         price: 900,
         name: "Akhtamar Gold",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 3
       },
       {
         id: 22,
         mark: "Akhtamar",
         price: 900,
         name: "Akhtamar Platinium",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 3
       },
       {
         id: 23,
         mark: "Akhtamar",
         price: 900,
         name: "Akhtamar Slims",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
       {
         id: 24,
         mark: "Akhtamar",
         price: 850,
         name: "Akhtamar Super Slims",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
       {
         id: 25,
         mark: "Akhtamar",
         price: 850,
         name: "Akhtamar Sev barak",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 3
       },
       {
         id: 26,
         mark: "Akhtamar",
         price: 850,
         name: "Akhtamar Seri barak",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
       {
         id: 27,
         mark: "Akhtamar",
         price: 750,
         name: "Akhtamar Original mets",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
       {
         id: 28,
         mark: "Akhtamar",
         price: 700,
         name: "Akhtamar Original sovorakan",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
       {
         id: 29,
         mark: "MT",
         price: 800,
         name: "MT Blue",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
       {
         id: 30,
         mark: "MT",
         price: 800,
         name: "MT Silver",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 2
       },
       {
         id: 31,
         mark: "MT",
         price: 800,
         name: "MT Blue Super Slims",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 4
       },
       {
         id: 32,
         mark: "MT",
         price: 800,
         name: "MT One",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 4
       },
       {
         id: 33,
         mark: "MT",
         price: 800,
         name: "MT Blue poqr",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
       {
         id: 34,
         mark: "GT",
         price: 750,
         name: "GT",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 4
       },
       {
         id: 35,
         mark: "Vip",
         price: 700,
         name: "Vip Black",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 1
       },
       {
         id: 36,
         mark: "Vip",
         price: 750,
         name: "Vip Blue",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
       {
         id: 37,
         mark: "Vip",
         price: 750,
         name: "Vip Silver",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 3
       },
       {
         id: 38,
         mark: "Classic",
         price: 700,
         name: "Classic Gold",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 3
       },
       {
         id: 39,
         mark: "Classic",
         price: 700,
         name: "Classic Spitak",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
       {
         id: 40,
         mark: "Classic",
         price: 700,
         name: "Classic Compact",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 3
       },
       {
         id: 41,
         mark: "Garni",
         price: 650,
         name: "Garni 100",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 4
       },
       {
         id: 42,
         mark: "Garni",
         price: 650,
         name: "Garni Karmir",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 3
       },
       {
         id: 43,
         mark: "Garni",
         price: 650,
         name: "Garni Kapuyt",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
       {
         id: 44,
         mark: "Garni",
         price: 650,
         name: "Garni Poqr",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 4
       },
       {
         id: 45,
         mark: "Garni",
         price: 650,
         name: "Garni Reguliar",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 3
       },
       {
         id: 46,
         mark: "Garni",
         price: 650,
         name: "Garni Seri",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 1
       },
       {
         id: 47,
         mark: "Black",
         price: 650,
         name: "Black nex sovorakan",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
       {
         id: 48,
         mark: "Black",
         price: 650,
         name: "Black layn",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
       {
         id: 49,
         mark: "Black",
         price: 650,
         name: "Black Compact",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 4
       },
       {
         id: 50,
         mark: "Black",
         price: 650,
         name: "Black Spitak Compact",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 4
       },
       {
         id: 51,
         mark: "Yerevan",
         price: 650,
         name: "Yerevan Karmir Tapak",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 4
       },
       {
         id: 52,
         mark: "Yerevan",
         price: 650,
         name: "Yerevan Karmir Hast",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 3
       },
       {
         id: 53,
         mark: "Noy",
         price: 650,
         name: "Noy White",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 4
       },
       {
         id: 54,
         mark: "Noy",
         price: 650,
         name: "Noy Papuk",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 4
       },
       {
         id: 55,
         mark: "Noy",
         price: 600,
         name: "Noy Karch",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 3
       },
       {
         id: 56,
         mark: "Erebuni",
         price: 600,
         name: "Erebuni Kapuyt Erkar",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
       {
         id: 57,
         mark: "Masis",
         price: 600,
         name: "Masis Tapak",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
       {
         id: 58,
         mark: "Masis",
         price: 600,
         name: "Masis Compact",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 3
       },
       {
         id: 59,
         mark: "Van",
         price: 600,
         name: "Van Sovorakan",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
       {
         id: 60,
         mark: "Van",
         price: 600,
         name: "Van Kapuyt barak",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
       {
         id: 61,
         mark: "Van",
         price: 600,
         name: "Van Seri Barak",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
       {
         id: 62,
         mark: "RedLine",
         price: 600,
         name: "Red Line Slims",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 4
       },
       {
         id: 63,
         mark: "RedLine",
         price: 600,
         name: "Red Line Super Slims",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 4
       },
       {
         id: 64,
         mark: "RedLine",
         price: 600,
         name: "Red Line Compact",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 4
       },
       {
         id: 65,
         mark: "RedLine",
         price: 600,
         name: "Red Line Sovorakan",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
       {
         id: 66,
         mark: "One",
         price: 600,
         name: "One Sovorakan",
-        image: araratSevMets
+        image: araratSevMets,
+        rating: 5
       },
     ]
   },

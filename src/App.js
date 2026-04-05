@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { tobaccoData } from './data';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
+
 import './App.css';
 
 function App() {
@@ -106,6 +107,22 @@ function App() {
                                <PhotoProvider>
                                  {category.products.map((product) => (
                                     <div key={product.id} className={`product-row ${cart[product.id] ? 'selected' : ''}`}>
+                                       {product.rating && (
+                                          <div className="selling-badge stars" title={`Rating: ${product.rating} / 5`}>
+                                             {[...Array(5)].map((_, i) => (
+                                                <svg 
+                                                  key={i} 
+                                                  width="16" 
+                                                  height="16" 
+                                                  viewBox="0 0 24 24" 
+                                                  fill={i < product.rating ? "#f97316" : "rgba(255,255,255,0.15)"} 
+                                                  xmlns="http://www.w3.org/2000/svg"
+                                                >
+                                                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                                                </svg>
+                                             ))}
+                                          </div>
+                                       )}
                                        <div className="product-info">
                                           <PhotoView src={product.image}>
                                              <img 
@@ -124,6 +141,17 @@ function App() {
                                        </div>
                                        <div className="quantity-control">
                                            <label htmlFor={`qty-${product.id}`}>Qty:</label>
+                                           <div className="fast-qty-buttons">
+                                              {[5, 10, 20, 30].map(qty => (
+                                                 <button 
+                                                    key={qty} 
+                                                    className="fast-qty-btn" 
+                                                    onClick={() => handleQuantityChange(product.id, qty)}
+                                                 >
+                                                    {qty}
+                                                 </button>
+                                              ))}
+                                           </div>
                                            <input 
                                               id={`qty-${product.id}`}
                                               type="number" 

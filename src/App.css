@@ -214,6 +214,18 @@ body {
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid transparent;
   transition: var(--transition);
+  position: relative;
+}
+
+.selling-badge {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.5rem;
+}
+
+.selling-badge.stars {
+  display: flex;
+  gap: 2px;
 }
 
 .product-row:hover {
@@ -260,11 +272,33 @@ body {
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  flex-wrap: wrap;
 }
 
 .quantity-control label {
   color: var(--text-muted);
   font-size: 0.9rem;
+}
+
+.fast-qty-buttons {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.fast-qty-btn {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-muted);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  transition: var(--transition);
+}
+
+.fast-qty-btn:hover {
+  background: rgba(59, 130, 246, 0.2);
+  color: var(--text-main);
+  border-color: rgba(59, 130, 246, 0.5);
 }
 
 .quantity-control input {
@@ -552,6 +586,11 @@ button:disabled {
 
   .accordion-content {
     padding: 0 1rem 1rem;
+  }
+
+  .selling-badge {
+    top: 1rem;
+    right: 1rem;
   }
 }
 
