@@ -107,22 +107,6 @@ function App() {
                                <PhotoProvider>
                                  {category.products.map((product) => (
                                     <div key={product.id} className={`product-row ${cart[product.id] ? 'selected' : ''}`}>
-                                       {product.rating && (
-                                          <div className="selling-badge stars" title={`Rating: ${product.rating} / 5`}>
-                                             {[...Array(5)].map((_, i) => (
-                                                <svg 
-                                                  key={i} 
-                                                  width="16" 
-                                                  height="16" 
-                                                  viewBox="0 0 24 24" 
-                                                  fill={i < product.rating ? "#f97316" : "rgba(255,255,255,0.15)"} 
-                                                  xmlns="http://www.w3.org/2000/svg"
-                                                >
-                                                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                                                </svg>
-                                             ))}
-                                          </div>
-                                       )}
                                        <div className="product-info">
                                           <PhotoView src={product.image}>
                                              <img 
@@ -136,6 +120,22 @@ function App() {
                                              <span className="product-name">
                                                 {product.name} {product.mark && product.mark !== product.name ? ` (${product.mark})` : ''}
                                              </span>
+                                             {product.rating && (
+                                                <div className="selling-badge stars" title={`Rating: ${product.rating} / 5`}>
+                                                   {[...Array(5)].map((_, i) => (
+                                                      <svg 
+                                                        key={i} 
+                                                        width="14" 
+                                                        height="14" 
+                                                        viewBox="0 0 24 24" 
+                                                        fill={i < product.rating ? "#f97316" : "rgba(255,255,255,0.15)"} 
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                      >
+                                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                                                      </svg>
+                                                   ))}
+                                                </div>
+                                             )}
                                              <span className="product-price">{product.price.toLocaleString()} ֏</span>
                                           </div>
                                        </div>
