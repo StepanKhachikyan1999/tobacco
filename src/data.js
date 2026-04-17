@@ -4,8 +4,23 @@ import araratWhiteBigImg from './images/Ararat_Spitat_mets.png';
 import araratGold from './images/Ararat_Gold.png';
 import araratKapuyt from './images/Ararat_Kapuyt.png';
 import araratSevHast from './images/Ararat_Sev_Hast.png';
-import araratCompact from './images/Ararat_Compact.png';
 import araratSeriSlims from './images/Ararat_Seri_Slims.png';
+import araratPremiumWhite from './images/ararat_premium_white.png';
+import araratPerla from './images/ararat_perla.png';
+import araratLazur from './images/ararat_lazur.png';
+import araratKapuytSlims from './images/ararat_kapuyt_slims.png';
+import araratNexErkar from './images/nex_ararat.png';
+import araratSuperSlims from './images/ararat_super_slims.png';
+import araratSevBarak from './images/ararat_sev_barak.png';
+import araratSeri from './images/Ararat_Seri.png';
+import araratKapuytHast from './images/Ararat_Kapuyt_hast.png';
+import araratCompact from './images/Ararat_Compact.png';
+import akhtamarGold from './images/akhtamar_gold.png';
+import akhtamarPlatinium from './images/akhtamar_platinum.png';
+import akhtamarSlims from './images/akhtamar_super_slims.png';
+import akhtamarSevBarak from './images/akhtamar_sev.png';
+import akhtamarSeri from './images/akhtamar_seri.png';
+import vipBlue from './images/kapuyt_vip.png';
 
 
 
@@ -44,7 +59,7 @@ export const tobaccoData = [
         mark: "Ararat",
         price: 1300,
         name: "Ararat White",
-        image: araratSevMets,
+        image: araratPremiumWhite,
         rating: 1
       },
       {
@@ -52,7 +67,7 @@ export const tobaccoData = [
         mark: "Ararat",
         price: 1300,
         name: "Ararat Perla",
-        image: araratSevMets,
+        image: araratPerla,
         rating: 1
       },
       {
@@ -60,7 +75,7 @@ export const tobaccoData = [
         mark: "Ararat",
         price: 1300,
         name: "Ararat Lazur",
-        image: araratSevMets,
+        image: araratLazur,
         rating: 4
       },
       {
@@ -68,7 +83,7 @@ export const tobaccoData = [
         mark: "Ararat",
         price: 1200,
         name: "Ararat Kaput Slims",
-        image: araratSevMets,
+        image: araratKapuytSlims,
         rating: 5
       },
       {
@@ -84,7 +99,7 @@ export const tobaccoData = [
         mark: "Ararat",
         price: 1200,
         name: "Ararat nex erkar",
-        image: araratSevMets,
+        image: araratNexErkar,
         rating: 5
       },
       {
@@ -92,7 +107,7 @@ export const tobaccoData = [
         mark: "Ararat",
         price: 1200,
         name: "Ararat Super Slims",
-        image: araratSevMets,
+        image: araratSuperSlims,
         rating: 3
       },
       {
@@ -100,7 +115,7 @@ export const tobaccoData = [
         mark: "Ararat",
         price: 1200,
         name: "Ararat Sev barak",
-        image: araratSevMets,
+        image: araratSevBarak,
         rating: 4
       },
       {
@@ -108,7 +123,7 @@ export const tobaccoData = [
         mark: "Ararat",
         price: 1200,
         name: "Ararat Seri",
-        image: araratSevMets,
+        image: araratSeri,
         rating: 5
       },
       {
@@ -132,7 +147,7 @@ export const tobaccoData = [
         mark: "Ararat",
         price: 1200,
         name: "Ararat Kapuyt hast",
-        image: araratSevMets,
+        image: araratKapuytHast,
         rating: 5
       },
       {
@@ -148,7 +163,7 @@ export const tobaccoData = [
         mark: "Aragats",
         price: 900,
         name: "Aragats",
-        image: araratSevMets,
+        image: '',
         rating: 1
       },
       {
@@ -156,7 +171,7 @@ export const tobaccoData = [
         mark: "Triumph",
         price: 1000,
         name: "Triumph",
-        image: araratSevMets,
+        image: '',
         rating: 1
       },
       {
@@ -164,7 +179,7 @@ export const tobaccoData = [
         mark: "Akhtamar",
         price: 1100,
         name: "Akhtamar Sev erkar",
-        image: araratSevMets,
+        image: '',
         rating: 3
       },
       {
@@ -172,7 +187,7 @@ export const tobaccoData = [
         mark: "Akhtamar",
         price: 900,
         name: "Akhtamar Gold",
-        image: araratSevMets,
+        image: akhtamarGold,
         rating: 3
       },
       {
@@ -180,7 +195,7 @@ export const tobaccoData = [
         mark: "Akhtamar",
         price: 900,
         name: "Akhtamar Platinium",
-        image: araratSevMets,
+        image: akhtamarPlatinium,
         rating: 3
       },
       {
@@ -188,7 +203,7 @@ export const tobaccoData = [
         mark: "Akhtamar",
         price: 900,
         name: "Akhtamar Slims",
-        image: araratSevMets,
+        image: akhtamarSlims,
         rating: 5
       },
       {
@@ -196,7 +211,7 @@ export const tobaccoData = [
         mark: "Akhtamar",
         price: 850,
         name: "Akhtamar Super Slims",
-        image: araratSevMets,
+        image: akhtamarSlims,
         rating: 5
       },
       {
@@ -204,7 +219,7 @@ export const tobaccoData = [
         mark: "Akhtamar",
         price: 850,
         name: "Akhtamar Sev barak",
-        image: araratSevMets,
+        image: akhtamarSevBarak,
         rating: 3
       },
       {
@@ -212,7 +227,7 @@ export const tobaccoData = [
         mark: "Akhtamar",
         price: 850,
         name: "Akhtamar Seri barak",
-        image: araratSevMets,
+        image: akhtamarSeri,
         rating: 5
       },
       {
@@ -292,7 +307,7 @@ export const tobaccoData = [
         mark: "Vip",
         price: 750,
         name: "Vip Blue",
-        image: araratSevMets,
+        image: vipBlue,
         rating: 5
       },
       {
@@ -537,7 +552,24 @@ export const tobaccoData = [
       },
     ]
   },
-  { id: 'Davidoff', name: 'Davidoff', prefix: 'Davidoff', products: [] },
+  { id: 'Davidoff', name: 'Davidoff', prefix: 'Davidoff', products: [
+      {
+        id: 1,
+        mark: "Big",
+        price: 1600,
+        name: "Ararat Black",
+        image: araratSevMets,
+        rating: 1
+      },
+      {
+        id: 2,
+        mark: "Big",
+        price: 1600,
+        name: "Ararat Exclusive",
+        image: araratWhiteBigImg,
+        rating: 1
+      },
+    ] },
   { id: 'Kent', name: 'Kent', prefix: 'Kent', products: [] },
   { id: 'PM', name: 'Phillip Moris', prefix: 'PM', products: [] },
   { id: 'Winston', name: 'Winston', prefix: 'Winston', products: [] },
