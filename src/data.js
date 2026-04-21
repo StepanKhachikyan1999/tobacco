@@ -68,6 +68,14 @@ import winstonXsSilkImg from './images/Winston/Cigarettes "Winston XS Silk".png'
 import winstonXsSlimsBlueImg from './images/Winston/Cigarettes "Winston XS Slims Blue".png';
 import winstonXsSlimsSilverImg from './images/Winston/Cigarettes "Winston XS Slims Silver".png';
 
+import camelCompactBlueImg from './images/Camel/Cigarette "Camel Compact Blue".png';
+import camelOriginalLegendImg from './images/Camel/Cigarette "Camel Original Legend".png';
+import camelOriginalLegendBlueImg from './images/Camel/Cigarette "Camel Original Legend Blue".png';
+import camelBlackCompactImg from './images/Camel/Cigarette "Camel Black Compact".png';
+import camelBlueSlimsImg from './images/Camel/Cigarette "Camel Blue Slims".png';
+import camelSkyBlueSuperslimsImg from './images/Camel/Cigarette "Camel Sky Blue Superslims".png';
+import camelBlueSuperslimsImg from './images/Camel/Cigarette "Camel Blue Superslims".png';
+
 export const tobaccoData = [
   {
     id: 'GT',
@@ -708,6 +716,13 @@ export const tobaccoData = [
       { id: 324, mark: "Winston", price: 700, name: "Winston XS Intrigue", image: winstonXsIntrigueImg, rating: 4 },
       { id: 325, mark: "Winston", price: 700, name: "Winston XS Silk", image: winstonXsSilkImg, rating: 5 },
       { id: 326, mark: "Winston", price: 700, name: "Winston Just Blue", image: winstonJustBlueImg, rating: 1 },
-      { id: 327, mark: "Winston", price: 700, name: "Winston Just Silver", image: winstonJustSilverImg, rating: 1 }
+      { id: 327, mark: "Winston", price: 700, name: "Winston Just Silver", image: winstonJustSilverImg, rating: 1 },
+      { id: 328, mark: "Camel", price: 650, name: "Camel Compact Blue", image: camelCompactBlueImg, rating: 5 },
+      { id: 329, mark: "Camel", price: 600, name: "Camel Original Legend", image: camelOriginalLegendImg, rating: 5 },
+      { id: 330, mark: "Camel", price: 600, name: "Camel Original Legend Blue", image: camelOriginalLegendBlueImg, rating: 5 },
+      { id: 331, mark: "Camel", price: 650, name: "Camel Black Compact", image: camelBlackCompactImg, rating: 5 },
+      { id: 332, mark: "Camel", price: 600, name: "Camel Blue Slims", image: camelBlueSlimsImg, rating: 5 },
+      { id: 333, mark: "Camel", price: 650, name: "Camel Sky Blue Superslims", image: camelSkyBlueSuperslimsImg, rating: 5 },
+      { id: 334, mark: "Camel", price: 650, name: "Camel Blue Superslims", image: camelBlueSuperslimsImg, rating: 5 }
     ] },
 ];
