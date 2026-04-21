@@ -22,7 +22,21 @@ import akhtamarSevBarak from './images/akhtamar_sev.png';
 import akhtamarSeri from './images/akhtamar_seri.png';
 import vipBlue from './images/kapuyt_vip.png';
 
-
+import cigaronneCompattoBlackImg from './images/Cigaronne/Cigarette "Cigaronne Compatto".png';
+import cigaronneCompattoWhiteImg from './images/Cigaronne/Cigarette "Cigaronne Compatto-white".png';
+import cigaronneKingSizeBlackImg from './images/Cigaronne/Cigarette "Cigaronne King Size Black".png';
+import cigaronneKingSizeWhiteImg from './images/Cigaronne/Cigarette "Cigaronne King Size White".png';
+import cigaronneRoyalSlimsBlackImg from './images/Cigaronne/Cigarette "Cigaronne Royal Slims Black".png';
+import cigaronneRoyalSlimsWhiteImg from './images/Cigaronne/Cigarette "Cigaronne Royal Slims White".png';
+import cigaronneSuperSlimsBlackImg from './images/Cigaronne/Cigarette "Cigaronne Super Slims Black".png';
+import cigaronneSuperSlimsWhiteImg from './images/Cigaronne/Cigarette "Cigaronne Super Slims White".png';
+import cigaronneSuperSlimsMentholImg from './images/Cigaronne/Cigarette "Cigaronne Super Slims".png';
+import cigaronneUltraSlimsBlackImg from './images/Cigaronne/Cigarette "Cigaronne Ultra Slims Black".png';
+import cigaronneUltraSlimsWhiteImg from './images/Cigaronne/Cigarette "Cigaronne Ultra Slims White".png';
+import cigaronneBigBossImg from './images/Cigaronne/Cigarettes "Cigaronne Big Boss XL Filter".png';
+import cigaronneLegendImg from './images/Cigaronne/Cigarettes "Cigaronne Legend XL Filter".png';
+import cigaronneMagnetImg from './images/Cigaronne/Cigarettes "Cigaronne Magnet".png';
+import cigaronnePhantomImg from './images/Cigaronne/Cigarettes "Cigaronne Phantom".png';
 
 export const tobaccoData = [
   {
@@ -552,25 +566,89 @@ export const tobaccoData = [
       },
     ]
   },
-  { id: 'Davidoff', name: 'Davidoff', prefix: 'Davidoff', products: [
-      {
-        id: 1,
-        mark: "Big",
-        price: 1600,
-        name: "Ararat Black",
-        image: araratSevMets,
-        rating: 1
-      },
-      {
-        id: 2,
-        mark: "Big",
-        price: 1600,
-        name: "Ararat Exclusive",
-        image: araratWhiteBigImg,
-        rating: 1
-      },
+  { id: 'Davidoff', name: 'Davidoff', prefix: 'Davidoff', products: [] },
+  { id: 'Cigaronne', name: 'Cigaronne', prefix: 'Cigaronne', products: [
+      { id: 200, mark: "Cigaronne", price: 950, name: "Cigaronne Compatto Black", image: cigaronneCompattoBlackImg, rating: 4 },
+      { id: 201, mark: "Cigaronne", price: 950, name: "Cigaronne Compatto White", image: cigaronneCompattoWhiteImg, rating: 4 },
+      { id: 202, mark: "Cigaronne", price: 900, name: "Cigaronne Ultra Slims White", image: cigaronneUltraSlimsWhiteImg, rating: 5 },
+      { id: 203, mark: "Cigaronne", price: 900, name: "Cigaronne Ultra Slims Black", image: cigaronneUltraSlimsBlackImg, rating: 5 },
+      { id: 204, mark: "Cigaronne", price: 1000, name: "Cigaronne Super Slims White", image: cigaronneSuperSlimsWhiteImg, rating: 5 },
+      { id: 205, mark: "Cigaronne", price: 1000, name: "Cigaronne Super Slims Black", image: cigaronneSuperSlimsBlackImg, rating: 5 },
+      { id: 206, mark: "Cigaronne", price: 1000, name: "Cigaronne Super Slims Menthol", image: cigaronneSuperSlimsMentholImg, rating: 4 },
+      { id: 207, mark: "Cigaronne", price: 1100, name: "Cigaronne King Size White", image: cigaronneKingSizeWhiteImg, rating: 5 },
+      { id: 208, mark: "Cigaronne", price: 1100, name: "Cigaronne King Size Black", image: cigaronneKingSizeBlackImg, rating: 5 },
+      { id: 209, mark: "Cigaronne", price: 1300, name: "Cigaronne Magnet", image: cigaronneMagnetImg, rating: 4 },
+      { id: 210, mark: "Cigaronne", price: 2000, name: "Cigaronne Phantom", image: cigaronnePhantomImg, rating: 5 },
+      { id: 211, mark: "Cigaronne", price: 2000, name: "Cigaronne Royal Slims White", image: cigaronneRoyalSlimsWhiteImg, rating: 5 },
+      { id: 212, mark: "Cigaronne", price: 2000, name: "Cigaronne Royal Slims Black", image: cigaronneRoyalSlimsBlackImg, rating: 5 },
+      { id: 213, mark: "Cigaronne", price: 2500, name: "Cigaronne Big Boss XL Filter", image: cigaronneBigBossImg, rating: 5 },
+      { id: 214, mark: "Cigaronne", price: 2500, name: "Cigaronne Legend XL Filter", image: cigaronneLegendImg, rating: 5 }
     ] },
-  { id: 'Kent', name: 'Kent', prefix: 'Kent', products: [] },
-  { id: 'PM', name: 'Phillip Moris', prefix: 'PM', products: [] },
+  { id: 'PM', name: 'Phillip Moris', prefix: 'PM', products: [
+      {
+        id: 100,
+        mark: "PM",
+        price: 850,
+        name: "Philip Morris Blue",
+        image: '',
+        rating: 5
+      },
+      {
+        id: 101,
+        mark: "PM",
+        price: 850,
+        name: "Philip Morris Red",
+        image: '',
+        rating: 4
+      },
+      {
+        id: 102,
+        mark: "PM",
+        price: 850,
+        name: "Philip Morris Silver",
+        image: '',
+        rating: 5
+      },
+      {
+        id: 103,
+        mark: "PM",
+        price: 800,
+        name: "Philip Morris Compact Blue",
+        image: '',
+        rating: 5
+      },
+      {
+        id: 104,
+        mark: "PM",
+        price: 800,
+        name: "Philip Morris Compact Silver",
+        image: '',
+        rating: 4
+      },
+      {
+        id: 105,
+        mark: "PM",
+        price: 800,
+        name: "Philip Morris Berry Mix",
+        image: '',
+        rating: 5
+      },
+      {
+        id: 106,
+        mark: "PM",
+        price: 800,
+        name: "Philip Morris Exotic Mix",
+        image: '',
+        rating: 4
+      },
+      {
+        id: 107,
+        mark: "PM",
+        price: 800,
+        name: "Philip Morris Play",
+        image: '',
+        rating: 3
+      }
+  ] },
   { id: 'Winston', name: 'Winston', prefix: 'Winston', products: [] },
 ];
