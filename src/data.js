@@ -38,6 +38,36 @@ import cigaronneLegendImg from './images/Cigaronne/Cigarettes "Cigaronne Legend 
 import cigaronneMagnetImg from './images/Cigaronne/Cigarettes "Cigaronne Magnet".png';
 import cigaronnePhantomImg from './images/Cigaronne/Cigarettes "Cigaronne Phantom".png';
 
+import sobranieLssBlueImg from './images/Winston/Cigarette "Sobranie LSS Blue".png';
+import sobranieCompactCasterImg from './images/Winston/Cigarette "Sobranie London Compact Caster".png';
+import sobranieSlideBlacksImg from './images/Winston/Cigarette "Sobranie Slide Blacks".png';
+import sobranieSlimsBlacksImg from './images/Winston/Cigarette "Sobranie Slims Blacks".png';
+import sobranieSlimsRichImg from './images/Winston/Cigarette "Sobranie Slims Rich".png';
+import sobranieKsBlackImg from './images/Winston/Cigarettes "Sobranie KS Black".png';
+import sobranieLssGoldImg from './images/Winston/Cigarettes "Sobranie LSS gold".png';
+import sobranieSuperWhitesImg from './images/Winston/Cigarettes "Sobranie Super Whites".png';
+
+import winstonBlueImg from './images/Winston/Cigarette "Winston Blue".png';
+import winstonJustBlueImg from './images/Winston/Cigarette "Winston Just Blue".png';
+import winstonJustSilverImg from './images/Winston/Cigarette "Winston Just Silver".png';
+import winstonSilverImg from './images/Winston/Cigarette "Winston Silver".png';
+import winstonSuperSlimsBlueImg from './images/Winston/Cigarette "Winston Super Slims Blue".png';
+import winstonSuperSlimsSilverImg from './images/Winston/Cigarette "Winston Super Slims Silver".png';
+import winstonSuperSlimsWhiteImg from './images/Winston/Cigarette "Winston Super Slims White".png';
+import winstonXsBlueImg from './images/Winston/Cigarette "Winston XS Blue".png';
+import winstonXsSilverImg from './images/Winston/Cigarette "Winston XS Silver".png';
+import winstonXstyleBlueImg from './images/Winston/Cigarette "Winston Xstyle Blue".png';
+import winstonXstyleSilverImg from './images/Winston/Cigarette "Winston Xstyle Silver".png';
+import winstonCompactBlueImg from './images/Winston/Cigarettes "Winston Compact Blue".png';
+import winstonCompactPurpleBeatImg from './images/Winston/Cigarettes "Winston Compact Purple Beat".png';
+import winstonCompactSilverExelBlendImg from './images/Winston/Cigarettes "Winston Compact Silver Exel Blend".png';
+import winstonXsCasterImg from './images/Winston/Cigarettes "Winston XS Caster".png';
+import winstonXsFantasyImg from './images/Winston/Cigarettes "Winston XS Fantasy".png';
+import winstonXsIntrigueImg from './images/Winston/Cigarettes "Winston XS Intrigue".png';
+import winstonXsSilkImg from './images/Winston/Cigarettes "Winston XS Silk".png';
+import winstonXsSlimsBlueImg from './images/Winston/Cigarettes "Winston XS Slims Blue".png';
+import winstonXsSlimsSilverImg from './images/Winston/Cigarettes "Winston XS Slims Silver".png';
+
 export const tobaccoData = [
   {
     id: 'GT',
@@ -650,5 +680,34 @@ export const tobaccoData = [
         rating: 3
       }
   ] },
-  { id: 'Winston', name: 'Winston', prefix: 'Winston', products: [] },
+  { id: 'Winston', name: 'Winston', prefix: 'Winston', products: [
+      { id: 300, mark: "Sobranie", price: 1200, name: "Sobranie London Compact Caster", image: sobranieCompactCasterImg, rating: 1 },
+      { id: 301, mark: "Sobranie", price: 1000, name: "Sobranie LSS Blue", image: sobranieLssBlueImg, rating: 1 },
+      { id: 302, mark: "Sobranie", price: 1200, name: "Sobranie Slide Blacks", image: sobranieSlideBlacksImg, rating: 2 },
+      { id: 303, mark: "Sobranie", price: 1200, name: "Sobranie Slims Blacks", image: sobranieSlimsBlacksImg, rating: 1 },
+      { id: 304, mark: "Sobranie", price: 1200, name: "Sobranie Slims Rich", image: sobranieSlimsRichImg, rating: 2 },
+      { id: 305, mark: "Sobranie", price: 1200, name: "Sobranie KS Black", image: sobranieKsBlackImg, rating: 1 },
+      { id: 306, mark: "Sobranie", price: 1200, name: "Sobranie LSS Gold", image: sobranieLssGoldImg, rating: 1 },
+      { id: 307, mark: "Sobranie", price: 1200, name: "Sobranie Super Whites", image: sobranieSuperWhitesImg, rating: 2 },
+      { id: 308, mark: "Winston", price: 860, name: "Winston Blue", image: winstonBlueImg, rating: 4 },
+      { id: 309, mark: "Winston", price: 860, name: "Winston Silver", image: winstonSilverImg, rating: 2 },
+      { id: 310, mark: "Winston", price: 860, name: "Winston Super Slims Blue", image: winstonSuperSlimsBlueImg, rating: 5 },
+      { id: 311, mark: "Winston", price: 860, name: "Winston Super Slims Silver", image: winstonSuperSlimsSilverImg, rating: 5 },
+      { id: 312, mark: "Winston", price: 800, name: "Winston XS Silver", image: winstonXsSilverImg, rating: 5 },
+      { id: 313, mark: "Winston", price: 800, name: "Winston Xstyle Blue", image: winstonXstyleBlueImg, rating: 5 },
+      { id: 314, mark: "Winston", price: 800, name: "Winston Xstyle Silver", image: winstonXstyleSilverImg, rating: 5 },
+      { id: 315, mark: "Winston", price: 750, name: "Winston XS Slims Blue", image: winstonXsSlimsBlueImg, rating: 5 },
+      { id: 316, mark: "Winston", price: 750, name: "Winston XS Slims Silver", image: winstonXsSlimsSilverImg, rating: 5 },
+      { id: 317, mark: "Winston", price: 700, name: "Winston Compact Blue", image: winstonCompactBlueImg, rating: 5 },
+      { id: 318, mark: "Winston", price: 700, name: "Winston Compact Silver Exel Blend", image: winstonCompactSilverExelBlendImg, rating: 5 },
+      { id: 319, mark: "Winston", price: 700, name: "Winston XS Fantasy", image: winstonXsFantasyImg, rating: 4 },
+      { id: 320, mark: "Winston", price: 860, name: "Winston Super Slims White", image: winstonSuperSlimsWhiteImg, rating: 5 },
+      { id: 321, mark: "Winston", price: 850, name: "Winston Compact Purple Beat", image: winstonCompactPurpleBeatImg, rating: 5 },
+      { id: 322, mark: "Winston", price: 850, name: "Winston XS Caster", image: winstonXsCasterImg, rating: 5 },
+      { id: 323, mark: "Winston", price: 800, name: "Winston XS Blue", image: winstonXsBlueImg, rating: 5 },
+      { id: 324, mark: "Winston", price: 700, name: "Winston XS Intrigue", image: winstonXsIntrigueImg, rating: 4 },
+      { id: 325, mark: "Winston", price: 700, name: "Winston XS Silk", image: winstonXsSilkImg, rating: 5 },
+      { id: 326, mark: "Winston", price: 700, name: "Winston Just Blue", image: winstonJustBlueImg, rating: 1 },
+      { id: 327, mark: "Winston", price: 700, name: "Winston Just Silver", image: winstonJustSilverImg, rating: 1 }
+    ] },
 ];
